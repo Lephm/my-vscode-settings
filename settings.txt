@@ -1,0 +1,25 @@
+//keybindings.json
+[
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
+]
+
+//settings.json
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "json.maxItemsComputed": 7000,
+    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "explorer.compactFolders": false,
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreview": false
+}
