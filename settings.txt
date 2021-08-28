@@ -4,9 +4,10 @@
         "key": "ctrl+t",
         "command": "workbench.action.terminal.focus"
     },
+    
     {
         "key": "ctrl+t",
-        "command": "workbench.action.focusActiveEditorGroup",
+        "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminalFocus"
     }
 ]
